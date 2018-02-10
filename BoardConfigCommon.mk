@@ -93,7 +93,7 @@ BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 CHARGING_ENABLED_PATH := "/sys/class/power_supply/battery/batt_lp_charging"
 
 # CMHW
-BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+#BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 BOARD_HARDWARE_CLASS += device/samsung/exynos5410-common/cmhw
 
 # Filesystems
